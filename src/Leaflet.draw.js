@@ -46,6 +46,9 @@ L.drawVersion = '0.4.2';
  * or GeometryCollection. If you need to add multigeometry features to the draw plugin, convert them to a
  * FeatureCollection of non-multigeometries (Points, LineStrings, or Polygons).
  */
+
+var L = window.L;
+
 L.Draw = {};
 
 /**
