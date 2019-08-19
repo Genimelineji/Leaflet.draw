@@ -1,5 +1,5 @@
 /*
- Leaflet.draw 1.0.401, a plugin that adds drawing and editing tools to Leaflet powered maps.
+ Leaflet.draw 1.0.4, a plugin that adds drawing and editing tools to Leaflet powered maps.
  (c) 2012-2017, Jacob Toye, Jon West, Smartrak, Leaflet
 
  https://github.com/Leaflet/Leaflet.draw
@@ -8,7 +8,9 @@
 (function (window, document, undefined) {/**
  * Leaflet.draw assumes that you have already included the Leaflet library.
  */
-L.drawVersion = "1.0.401";
+var L = window.L;
+
+L.drawVersion = "1.0.4";
 /**
  * @class L.Draw
  * @aka Draw
@@ -53,8 +55,6 @@ L.drawVersion = "1.0.401";
  * or GeometryCollection. If you need to add multigeometry features to the draw plugin, convert them to a
  * FeatureCollection of non-multigeometries (Points, LineStrings, or Polygons).
  */
-
-var L = window.L;
 
 L.Draw = {};
 
